@@ -1,6 +1,7 @@
 
 # Chrome Title Changer
 
+![1729583210791](image/README/1729583210791.png)
 
 A simple yet powerful Chrome extension that allows you to customize website titles temporarily or permanently. Perfect for organizing your browser tabs and creating personalized web experiences.
 
