@@ -1,0 +1,17 @@
+{
+    "manifest_version": 3,
+    "name": "Title Changer",
+    "version": "1.0",
+    "description": "Change website titles temporarily or permanently",
+    "permissions": ["storage", "activeTab", "scripting"],
+    "action": {
+      "default_popup": "popup.html"
+    },
+    "icons": {
+      "48": "icon48.png",
+      "128": "icon128.png"
+    },
+    "host_permissions": [
+      "<all_urls>"
+    ]
+  }

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    body {
+      width: 300px;
+      padding: 10px;
+    }
+    .container {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+    }
+    input[type="text"] {
+      width: 100%;
+      padding: 5px;
+    }
+    .buttons {
+      display: flex;
+      gap: 5px;
+    }
+    button {
+      flex: 1;
+      padding: 5px;
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <input type="text" id="newTitle" placeholder="Enter new title">
+    <div class="buttons">
+      <button id="thisTime">This time only</button>
+      <button id="always">Always</button>
+    </div>
+  </div>
+  <script src="popup.js"></script>
+</body>
+</html>
