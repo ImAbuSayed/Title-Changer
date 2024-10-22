@@ -13,7 +13,8 @@
     }
     input[type="text"] {
       width: 100%;
-      padding: 5px;
+      padding: 8px;
+      margin: 5px 0;
     }
     .buttons {
       display: flex;
@@ -21,8 +22,20 @@
     }
     button {
       flex: 1;
-      padding: 5px;
+      padding: 8px;
       cursor: pointer;
+      background-color: #4CAF50;
+      color: white;
+      border: none;
+      border-radius: 4px;
+    }
+    button:hover {
+      background-color: #45a049;
+    }
+    #status {
+      margin-top: 10px;
+      text-align: center;
+      color: #666;
     }
   </style>
 </head>
@@ -33,6 +46,7 @@
       <button id="thisTime">This time only</button>
       <button id="always">Always</button>
     </div>
+    <div id="status"></div>
   </div>
   <script src="popup.js"></script>
 </body>
